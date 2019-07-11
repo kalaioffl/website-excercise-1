@@ -1,0 +1,50 @@
+#container-one{
+	width: 990px;
+	margin: 10px auto;
+
+}
+header{
+	background-color: white;
+	min-height: 80px;
+
+}
+#main{
+	background-color: coral;
+	min-height: 300px;
+
+}
+footer{
+	background-color: white;
+	min-height: 60px;
+}
+#column1{
+	 background-color:LightGray;
+	 width: 690px;
+	 float: left;
+	 min-height: 600px;
+
+}
+#sidebar{
+	background-color: coral;
+	min-height: 300px;
+	margin-left: 690px;
+}
+.firstbar{
+	position: absolute;
+	bottom : 25%;
+}
+.secondbar{
+	position: absolute;
+	bottom : 50%;
+	left: 30%;
+}
+ul{
+	list-style: none;
+	position: absolute;
+	bottom: -50%;
+
+}
+.thirdbar{
+	position: absolute;
+	bottom: -60%;
+}

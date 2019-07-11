@@ -1,0 +1,61 @@
+*{
+    
+  margin: 0px;
+    padding: 0px;
+    
+}
+
+
+.firstbar{
+	position: absolute;
+	left: 10%;
+
+}
+body h1{
+	background-color: coral;
+	color: #EFFA05;
+	text-align:center;
+}
+#container{
+	position: absolute;
+	top: 30%;
+}
+#container ul{
+	list-style: none;
+}
+#container ul li {
+	background-color : coral;
+	
+	width: 150px;
+	border: 1px solid white;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 20px;
+	float: left;
+}
+#container ul li:hover{
+	background-color:#0FB48C;
+
+}
+#container ul ul{
+    display: none;
+}
+#container ul li:hover > ul{
+    display:block;
+}
+.para-one{
+    position: absolute;
+    bottom: 10%;
+    left: 2%
+    
+    
+}
+.foot-one{
+   background-color: coral;
+    color: yellow;
+    text-align: center;
+    
+
+    
+}
